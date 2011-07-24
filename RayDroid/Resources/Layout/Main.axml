@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+              android:padding="6dip"
+    >
+  <LinearLayout android:id="@+id/viewLayout" android:layout_weight="1"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+    
+  </LinearLayout>
+  <LinearLayout android:id="@+id/linearLayout2"
+		android:orientation="horizontal" android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:padding="2dip"
+		android:layout_gravity="center" android:layout_weight="1">
+    <Button android:id="@+id/startStopBtn" android:text="Start" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_marginRight="15dip" />
+    <CheckBox android:id="@+id/parallelBtn" android:text="//?" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_marginRight="15dip" />
+    <CheckBox android:id="@+id/showBtn" android:text="Show?" android:enabled="false" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_marginRight="15dip" />
+    <TextView android:id="@+id/fpsText" android:text="/ FPS" android:lines="1" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" />
+  </LinearLayout>
+  <LinearLayout android:id="@+id/linearLayout3"
+		android:orientation="horizontal" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_gravity="center" android:layout_weight="4">
+    <EditText android:id="@+id/numThreadEntry" android:ems="5" android:inputType="number" android:layout_gravity="center"
+              android:layout_width="wrap_content" android:layout_height="wrap_content" />
+  </LinearLayout>
+</LinearLayout>

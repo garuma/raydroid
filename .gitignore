@@ -1,0 +1,9 @@
+*.apk
+*.suo
+*.pdb
+*.dll
+*.exe
+*.mdb
+*.dex
+*.class
+RayDroid/obj/*
